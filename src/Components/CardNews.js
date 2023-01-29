@@ -49,16 +49,14 @@ class CardNews extends HTMLElement {
 
         style.textContent = `
         *{
-            margin: 0;
-            padding: 0;
             box-sizing: border-box;
             font-family: 'Segoe UI', sans-serif;
-
         }
 
         .card{
-            width: 60%;
-            height: 400x;
+            margin-left: auto;
+            margin-right: auto;
+            width: 720px;
             border: 1px solid gray;
             display: flex;
             flex-direction: row;
@@ -69,9 +67,11 @@ class CardNews extends HTMLElement {
         }
 
         .card_left{
+            padding: 10px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            align-items: flex-start;
+
         }
 
         .card_left > a {
@@ -80,18 +80,26 @@ class CardNews extends HTMLElement {
             color: black;
             text-decoration: none;
             font-weight: bold;
+
         }
 
         .card_left >  p {
             color: rgb(70,70,70);
+            justify-content: flex-start;
         }
 
         .card_left >  span {
             font-weight: 400;
         }
 
+        .card_right {
+            width: 200px;
+
+        }
+
         .card_right > img {
-            max-width: 300px;
+            width: 200px;
+            height: 200px;
         }
         `
         return style;

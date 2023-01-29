@@ -11,7 +11,13 @@ class TituloDinamico extends HTMLElement {
         const style = document.createElement("style");
         style.textContent = `
             h1{
-                color: grey;
+                margin: 0;
+                padding: 10px;
+                box-sizing: border-box;
+                font-family: 'Segoe UI', sans-serif;
+                margin-left: auto;
+                margin-right: auto;
+                width: 720px;
             }
         `
         // enviar para a shadow
