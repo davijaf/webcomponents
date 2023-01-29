@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Noticias Galáctica</title>
+    <link rel="stylesheet" href="styles/cards.css">
+    <script src="src/Components/CardNews.js" defer></script>
+    <script src="src/Components/HelloWorld.js" defer></script>
+    <script src="src/Components/TituloDinamico.js" defer></script>
+</head>
+<body>
+    <hello-world></hello-world>
+    <titulo-dinamico titulo="Davi José"></titulo-dinamico>
+    <titulo-dinamico titulo="Minhas notícias:"></titulo-dinamico>
+    <br/>
+    <card-news
+        autor="Darth Vader"
+        title="Darth Vader Contrata Devs"
+        link-url="https://www.google.com"
+        link-image="./assets/darthvader.jpg"
+        content="Contratamos desenvolvedores na galáxia que trabalham com componentes."
+    ></card-news>
+    <br/>
+    <card-news
+        autor="Luke Skywalker"
+        title="Ordem Jedi Contrata"
+        link-url="https://www.google.com"
+        link-image="assets/luke.jpg"
+        content="Venha fazer parte de Ordem Jedi e controlar a Força dos Components."
+    ></card-news>
+    <br/>
+    <card-news
+        title="Force Papers"
+        content="Vamos descobrir oque está por trás da Força e esclareceremos todos os fatos."
+    ></card-news>
+    <br/>
+    <card-news
+        autor="Davi José Araújo Filho"
+        title="Perfil no Github"
+        link-url="https://github.com/davijaf"
+        link-image="https://avatars.githubusercontent.com/u/97923633?v=4"
+        content="Descubra meus projetos com componentes e aproveite para me adicionar no Linkedin: https://www.linkedin.com/in/davijaf/ "
+    ></card-news>
+    <br/>
+    <card-news
+        autor="Yoda"
+        title="Yoda se pronuncia"
+        link-url="https://www.google.com"
+        link-image="assets/yoda.jpg"
+        content="Yoda convence republica a utilizar components."
+    ></card-news>
+</body>
+</html>
