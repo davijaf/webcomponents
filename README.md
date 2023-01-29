@@ -25,6 +25,6 @@ Por fim, o elemento personalizado é registrado usando o método "customElements
 
 Para executar a aplicação, basta abrir o arquivo index.html em um navegador.
 
-A seguir, segue o print da telas do projeto:
+A seguir, segue o print da tela do projeto:
 
 ![Alt text](./assets/cards.jpg "Tela Cards")
